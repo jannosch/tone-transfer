@@ -13,9 +13,9 @@ Mit "tone-transfer" lässt sich der Klancharakter eines Instruments auf jede bel
 Die Netze können mit jedem monophonen Instrument trainiert werden. Wir haben uns für eine E-Gitarre der Marke "Duesenberg" entschieden, die gerade für >2.500€ erhältlich sind. In der Praxis könnte das Netz bei der Musikproduktion für's Prototyping genutzt werden, um zu Testen, ob die E-Gitarre in einen Song passen würde. Im Live-Einsatz könnte mit einer Implementierung als Audio-Plugin z.B. [hier](https://magenta.tensorflow.org/ddsp-vst) benutzt werden, falls das Instrument benötigt wird, aber nicht vorhanden ist.
 
 # Inhalt
-- `tone_transfer_train.ipynb`: Trainingsnotebook mit Datenvorbereitung
-- `tone_transfer_inference.ipynb`: Testnotebook mit Möglichkeit zum Upload von eigenen Audiodateien
-- `model.zip`: Das Modell. Kann bei der Inferenz hochgeladen werden.
+- [`tone_transfer_train.ipynb`](https://colab.research.google.com/drive/1xPFgQtdMJi3TNMQtiCM5-PJ7Efi4cXu9?usp=sharing): Trainingsnotebook mit Datenvorbereitung
+- [`tone_transfer_inference.ipynb`](https://colab.research.google.com/drive/1XUDI8shyGKISdyhbyytjak474XAgTVkF?usp=sharing): Testnotebook mit Möglichkeit zum Upload von eigenen Audiodateien
+- [`model.zip`](https://drive.google.com/file/d/1Gyyhs7WLa21DMMv_ZQR6mbJIeJDzLdvq/view?usp=sharing): Das Modell. Kann bei der Inferenz hochgeladen werden.
 - `tequila.wav` & `mas_que_nada.wav`: Trompetenaufnahmen für das Testen
 
 ## Datensatz
