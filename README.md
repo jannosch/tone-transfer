@@ -15,7 +15,7 @@ Die Netze können mit jedem monophonen Instrument trainiert werden. Wir haben un
 # Inhalt
 - [`tone_transfer_train.ipynb`](https://colab.research.google.com/drive/1xPFgQtdMJi3TNMQtiCM5-PJ7Efi4cXu9?usp=sharing): Trainingsnotebook mit Datenvorbereitung
 - [`tone_transfer_inference.ipynb`](https://colab.research.google.com/drive/1XUDI8shyGKISdyhbyytjak474XAgTVkF?usp=sharing): Testnotebook mit Möglichkeit zum Upload von eigenen Audiodateien
-- [`model.zip`](https://drive.google.com/file/d/1Gyyhs7WLa21DMMv_ZQR6mbJIeJDzLdvq/view?usp=sharing): Das Modell. Kann bei der Inferenz hochgeladen werden.
+- [`model.zip`](https://drive.google.com/file/d/1Gyyhs7WLa21DMMv_ZQR6mbJIeJDzLdvq/view?usp=sharing): Das Modell auf Google Drive. Kann bei der Inferenz hochgeladen werden.
 - `tequila.wav` & `mas_que_nada.wav`: Trompetenaufnahmen für das Testen
 
 ## Datensatz
