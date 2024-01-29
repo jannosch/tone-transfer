@@ -1,0 +1,12 @@
+Find model.zip to upload here: https://drive.google.com/drive/folders/1QZ3I5xvMfcUvlGZ0rBLptujcF5irjtDy?usp=sharing
+
+Init with following Decoder:
+
+decoder = RnnFcDecoder(rnn_channels = 256,
+                       rnn_type = 'gru',
+                       ch = 256,
+                       layers_per_stack = 2,
+                       input_keys = ('ld_scaled', 'f0_scaled'),
+                       output_splits = (('amps', 1),
+                                        ('harmonic_distribution', 60),
+                                        ('noise_magnitudes', 65)))
