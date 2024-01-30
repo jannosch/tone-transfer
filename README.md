@@ -4,7 +4,7 @@ Ein Projekt von Moritz Blum (JLU) und Jannis Müller (THM).
 Basierend auf den Arbeiten:
 - [DDSP: Differentiable Digital Signal Processing](https://doi.org/10.48550/arXiv.2001.04643)
 - [Tone Transfer](https://ceur-ws.org/Vol-2903/IUI21WS-HAIGEN-3.pdf)
-- [SPICE](https://doi.org/10.1109/TASLP.2020.2982285)
+- [CREPE](http://github.com/marl/crepe)
 - [WaveNet](https://doi.org/10.48550/arXiv.1609.03499)
 
 Mit "tone-transfer" lässt sich der Klancharakter eines Instruments auf jede belibige monophone Audioquelle übertragen. Anbei sind beispielsweise zwei eigene Trompetenaufnahmen zum Testen. Das Ziel ist es, die aufgenommene Sequenz so klingen zu lassen, als würde sie von dem trainierten Instrument (in unserem Fall eine E-Gitarre) gespielt werden.
