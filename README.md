@@ -10,7 +10,7 @@ Basierend auf den Arbeiten:
 Mit "tone-transfer" lässt sich der Klancharakter eines Instruments auf jede belibige monophone Audioquelle übertragen. Anbei sind beispielsweise zwei eigene Trompetenaufnahmen zum Testen. Das Ziel ist es, die aufgenommene Sequenz so klingen zu lassen, als würde sie von dem trainierten Instrument (in unserem Fall eine E-Gitarre) gespielt werden.
 
 ## E-Gitarre
-Die Netze können mit jedem monophonen Instrument trainiert werden. Wir haben uns für eine E-Gitarre der Marke "Duesenberg" entschieden, die gerade für >2.500€ erhältlich sind. In der Praxis könnte das Netz bei der Musikproduktion für's Prototyping genutzt werden, um zu Testen, ob die E-Gitarre in einen Song passen würde. Im Live-Einsatz könnte mit einer Implementierung als Audio-Plugin z.B. [hier](https://magenta.tensorflow.org/ddsp-vst) benutzt werden, falls das Instrument benötigt wird, aber nicht vorhanden ist.
+Die Netze können mit jedem monophonen Instrument trainiert werden. Wir haben uns für eine E-Gitarre der Marke "Duesenberg" entschieden, die gerade für >2.500€ erhältlich ist. In der Praxis könnte das Netz bei der Musikproduktion für's Prototyping genutzt werden, um zu Testen, ob die E-Gitarre in einen Song passen würde. Im Live-Einsatz könnte mit einer Implementierung als Audio-Plugin z.B. [hier](https://magenta.tensorflow.org/ddsp-vst) benutzt werden, falls das Instrument benötigt wird, aber nicht vorhanden ist.
 
 # Inhalt
 - [`tone_transfer_train.ipynb`](https://colab.research.google.com/drive/1xPFgQtdMJi3TNMQtiCM5-PJ7Efi4cXu9?usp=sharing): Trainingsnotebook mit Datenvorbereitung
