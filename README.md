@@ -17,6 +17,7 @@ Die Netze können mit jedem monophonen Instrument trainiert werden. Wir haben un
 - [`tone_transfer_inference.ipynb`](https://colab.research.google.com/drive/1XUDI8shyGKISdyhbyytjak474XAgTVkF?usp=sharing): Testnotebook mit Möglichkeit zum Upload von eigenen Audiodateien
 - [`model.zip`](https://drive.google.com/drive/folders/1QZ3I5xvMfcUvlGZ0rBLptujcF5irjtDy?usp=sharing): Das Modell auf Google Drive. Kann bei der Inferenz hochgeladen werden.
 - `tequila.wav` & `mas_que_nada.wav`: Trompetenaufnahmen für das Testen
+- `Poster_Tone_Transfer.pdf`: Poster mit Übersicht über das Projekt
 
 ## Datensatz
 Der Datensatz befindet sich in [diesem Google-Drive Ordner](https://drive.google.com/drive/folders/1Y2HU3L9bbDXopPPFhmfxj9h36lKI5bkP?usp=sharing). Eine zwanzigminütige Aufnahme der E-Gitarre wurde in drei Ordner aufgeteilt: `train` (~70%), `val`(~20%) und `test`(~10%). 
